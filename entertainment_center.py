@@ -15,10 +15,10 @@ storyLine=["A Story of a boy and his toys that come to life",
 piclink=["http://images5.fanpop.com/image/photos/30100000/Buzz-Lightyear-toy-story-2-30185761-1600-1200.jpg", 
          "https://resizing.flixster.com/S5uksiCrVzEIio7HTEEX5Bem1rU=/206x305/v1.bTsxMTE3Njc5MjtqOzE3NDk5OzEyMDA7ODAwOzEyMDA", # NOQA 
          "img/vijay.jpg", 
-         "img/interstallar.jpg", 
+         "img/interstellar.jpg", 
          "img/inception.jpg", 
          "img/xmen.jpg", 
-         "img/transformers.jpg"]
+         "img/transformer.jpg"]
 
 vdolink=["https://www.youtube.com/watch?v=KYz2wyBy3kc", 
          "https://www.youtube.com/watch?v=cRdxXPV9GNQ", 
@@ -48,7 +48,7 @@ interstellar=media.Movie(title[3],
                          piclink[3],
                          vdolink[3])
 
-inception=media.Movie(Title[4], 
+inception=media.Movie(title[4], 
                       storyLine[4],  
                       piclink[4], 
                       vdolink[4])
@@ -65,4 +65,4 @@ transformer=media.Movie(title[6],
 
 
 movies=[toy_story,avatar,mersal,interstellar,inception,xmen,transformer]
-		fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies)
